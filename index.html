@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор паролей</title>
+</head>
+<body>
+<input type="text" id="userInput" placeholder="Введите количество символов...">
+<label><input type="checkbox" id="includeLetters" checked> Буквы</label>
+<label><input type="checkbox" id="includeNumbers" checked> Цифры</label>
+<label><input type="checkbox" id="includeSymbols"> Символы</label>
+<button onclick="generatePassword()">Generate Password</button>
+<div id="result"></div>
+<script src="passwordGenerator.js"></script>
+</body>
+</html>
